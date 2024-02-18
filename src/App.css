@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+  
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.hamburger{
+  width: 100px;
+  height: 30px;
+  overflow: auto;
+}
+.heart{
+  color: red;
+  font-size: large;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #bfccda; /* optional background color */
+  padding: 10px; /* optional padding */
+  text-align: center; /* optional, to center the text */
+  color: black;
+  font-size: large;
+}
+
+
+.element {
+  font-family: 'DM Serif Display', serif;
+  display: inline-grid;
+  place-content: center;
+  border-radius: 0.5rem;
+  width: 10vmax;
+  height: 10vmax;
+  padding: 1.5vmax 2.5vmax;
+  margin: 1.5vmax;
+  cursor: pointer;
+  transition: 0.15s;
+  box-shadow: 15px 15px 25px #e0e0e0, -15px -15px 25px #efefef;
+}
